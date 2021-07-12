@@ -1,3 +1,4 @@
+//SPDX-License-Identifier: MIT
 pragma solidity 0.8.4;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
@@ -5,8 +6,8 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 
 contract Governance {
-    address FafToken = 0x5FbDB2315678afecb367f032d93F642f64180aa3;
-    address president;
+    address public FafToken = 0x5FbDB2315678afecb367f032d93F642f64180aa3;
+    address public president;
     uint term;
     mapping(uint => Candidate) public candidateLookup;
     mapping(address => bool) public voterLookup;
