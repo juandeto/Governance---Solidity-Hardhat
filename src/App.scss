@@ -1,0 +1,139 @@
+
+$orange: rgb(255, 145, 0);
+$yellow: #fcbf49;
+$grey: #eae2b7;
+$blue: #003049;
+$red: #d62828;
+$border: #cacaca;
+$deep-grey: #6d6d6d;
+
+.container{
+  min-height: 100vh;
+}
+
+.tx-button{
+  background-color: $orange;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 8px;
+  color: $blue;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.landing{
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+  .landing-title{
+ color:$orange;
+ padding: 10px;
+ font-size: 5rem;
+ letter-spacing: 0.3rem;
+}
+.landing-subtitle{
+  color: teal;
+  font-size: 2rem;
+  align-self: center;
+}
+
+
+.landing-navbar{
+  width: 100%;
+  .landing-start{
+    display: table;
+    color: $orange;
+    font-size: 2rem;
+    margin: 0 auto;
+    background-color: $border;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    a{
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
+}
+
+.operations-container{
+  min-height: 100vh;
+  background-color: $grey;
+  padding: 15px;
+  .operations-title{
+    color: $blue;
+    font-size: 2rem;
+  }
+  .operations-formContainer{
+    display: flex;
+    flex-wrap: wrap;
+    .operations-form{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    width: 40%;
+    margin: 10px;
+    border: 1px solid $deep-grey;
+    border-radius: 8px;
+    padding: 10px;
+    label {
+      font-size: 1.6rem;
+      color: $deep-grey;
+      margin-right: 8px;
+    }
+    
+    input {
+      border: 1px solid $border;
+      padding: 8px;
+      border-radius: 5px;
+      margin: 8px 0;
+    }
+  }
+  }
+
+}
+
+.explanation-container{
+  min-height: 100vh;
+  background-color: $yellow;
+  padding: 15px;
+  .explanation-title{
+    color: $blue;
+    font-size: 2.5rem;
+    margin: 10px auto;
+    text-align: left;
+  }
+  .explanation-subtitle{
+    font-size: 2;
+    margin: 10px 0;
+    color: $deep-grey;
+  }
+  .explanation-p{
+    font-size: 1.5rem;
+    color: $blue;
+  }
+  .explanation-verMas{
+    background-color: transparent;
+    border: 1px solid $red;
+    border-radius: 5px;
+    color: $red;
+    padding: 10px;
+    font-size: 1.3rem;
+    margin: 15px 0;
+    a{
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
+
+.detalles-container{
+  min-height: 100vh;
+  background-color: $red;
+}
