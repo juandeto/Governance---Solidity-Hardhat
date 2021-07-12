@@ -9,5 +9,4 @@ contract FafToken is ERC20 {
         _mint(msg.sender, 24000000 * (10 ** 16));
     }
 
-    
 }

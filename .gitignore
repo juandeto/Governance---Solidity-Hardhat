@@ -11,6 +11,9 @@
 # production
 /build
 
+# settings
+/contracts/SETTING.txt
+
 # misc
 .DS_Store
 .env.local
